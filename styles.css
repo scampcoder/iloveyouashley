@@ -15,7 +15,8 @@ body {
     border: 8px solid #04b3b4;
     border-radius: 10px;
     margin-bottom: 20px;
-    min-height: fit-content;
+    max-height: fit-content;
+    min-height: 90vh;
 }
 
 .main-box {
