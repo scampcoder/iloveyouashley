@@ -10,12 +10,12 @@ body {
 
 #inner-body {
     background-color: rgba(173,237,236,255);
-    height: 93vh;
     margin-top: 0px;
     border-radius: 10px;
     border: 8px solid #04b3b4;
     border-radius: 10px;
     margin-bottom: 20px;
+    min-height: fit-content;
 }
 
 .main-box {
@@ -34,7 +34,8 @@ body {
     border-radius: 10px;
     text-align: center;
     width: 80%;
-    margin-top: 15vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 #pink-border-img {
@@ -60,11 +61,12 @@ body {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #outer-compliment {
         height: 100%;
         width: 100%;
         margin: 0;
+        padding: 0 10px;
     }
 
     #inner-compliment {
@@ -76,7 +78,7 @@ body {
     }
 
     #compliment {
-        font-size: medium;
-        line-height: 50px;
+        font-size: x-small;
+        line-height: 20px;
     }
 }
