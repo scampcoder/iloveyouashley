@@ -96,10 +96,9 @@ function getCompliment() {
             console.log("image found")
             complimentTxt.innerHTML = compliment.text
             image.src = compliment.image;
-            image.className = "image col-6";
+            image.className = "image";
             complimentBox.appendChild(image)
         } else {
-            console.log("image not found")
             complimentTxt.innerHTML = compliment.text
         }
     }
